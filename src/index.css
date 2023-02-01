@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #1d2b38;
+  color:rgb(215, 233, 248);
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+}
+
+#root {
+  /* margin: 0 24px; */
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+  position: relative;
+  min-height: 100vh;
+}

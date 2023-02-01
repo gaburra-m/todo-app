@@ -1,0 +1,102 @@
+form {
+    width: 90%;
+    max-width: 300px;
+    /* background-color: #fff; */
+    background-color: #1d2b38;
+    border: 2px solid rgb(33, 81, 121);
+    border-radius: 6px;
+    padding: 33px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+label{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    /* color: #1e1e1f; */
+    color:rgb(215, 233, 248);
+    margin-bottom: 26px;
+}
+
+textarea {
+    /* background-color: #f9fbfc; */
+    background-color: #243544;
+    border: 2px solid #202329;
+    border-radius: 6px;
+    box-shadow: 0px 5px 50px rgba(32, 35, 41, .25);
+    /* color: #1e1e1f; */
+    color: rgb(215, 233, 248);
+    font-size: 20px;
+    text-align: center;
+    padding: 12px;
+    height: 96px;
+    width: calc(100% - 25px);
+}
+
+textarea::placeholder {
+    color: #a5a5a5;
+    font-family: Montserrat;
+    font-weight: 400;
+}
+
+textarea:focus {
+    outline-color: #61dafa;
+    color: rgb(215, 233, 248);
+}
+
+textarea:hover {
+    border: 2px solid rgb(50, 120, 177);
+}
+
+.TodoForm-buttonContainer {
+    margin-top: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.TodoForm-button {
+    cursor: pointer;
+    display: inline-block;
+    font-size: 20px;
+    color: #202329;
+    font-weight: 400;
+    width: 120px;
+    height: 48px;
+    border-radius: 10px;
+    border: none;
+    font-family: Montserrat;
+}
+
+.TodoForm-button--add {
+    background: #0695bd;
+    /* box-shadow: 0px 5px 25px rgba(97, 218, 250, .5); */
+    color: #fff;
+
+    transition: background .5s ease;
+}
+
+.TodoForm-button--add:hover {
+    background: #1bbaf8;
+    /* box-shadow: 0px 5px 25px rgba(97, 218, 250, .5); */
+    color: #fff;
+
+}
+
+.TodoForm-button--cancel {
+    background: rgb(151, 9, 9);
+    color: #fff;
+    transition: background .5s ease;
+}
+
+.TodoForm-button--cancel:hover {
+    background: rgb(221, 11, 11);
+}
+
+.error {
+    color: red;
+}

@@ -1,0 +1,10 @@
+.time {
+    margin: 2rem;
+}
+
+.date {
+    font-size: calc(1.5rem + 1vw);
+    display: inline-block;
+    margin-left: 6px;
+    border-bottom: 2px solid #1bbaf8;
+}
